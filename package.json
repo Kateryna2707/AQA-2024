@@ -1,0 +1,26 @@
+{
+  "name": "aqa-2024_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "decimal.js": "^10.4.3",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "npm prettier .--check",
+    "precommit": "eslint .",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "9.6.0",
+    "eslint": "9.6.0",
+    "globals": "15.8.0",
+    "husky": "^9.0.11",
+    "prettier": "3.3.2"
+  }
+}
