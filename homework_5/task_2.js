@@ -8,22 +8,22 @@ let averageGrade = 64;
 let grade;
 
 switch (true) {
-    case (averageGrade >= 91):
-        grade = "Відмінно";
-        break;
-    case (averageGrade >= 81):
-        grade = "Дуже добре";
-        break;
-    case (averageGrade >= 71):
-        grade = "Добре";
-        break;
-    case (averageGrade >= 60):
-        grade = "Задовільно";
-        break;
-    case (averageGrade < 60):
-        grade = "Незадовільно";
-        break;
-    default:
-        grade = "Недійсне значення";
+  case averageGrade >= 91:
+    grade = 'Відмінно';
+    break;
+  case averageGrade >= 81:
+    grade = 'Дуже добре';
+    break;
+  case averageGrade >= 71:
+    grade = 'Добре';
+    break;
+  case averageGrade >= 60:
+    grade = 'Задовільно';
+    break;
+  case averageGrade < 60:
+    grade = 'Незадовільно';
+    break;
+  default:
+    grade = 'Недійсне значення';
 }
 console.log(grade);
