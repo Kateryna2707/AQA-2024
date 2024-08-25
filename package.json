@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^1.7.5",
     "chalk": "^5.3.0",
     "decimal.js": "^10.4.3",
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "format": "npm prettier .--check",
     "precommit": "eslint .",
     "prepare": "husky"
@@ -18,9 +19,11 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "9.6.0",
+    "@types/jest": "^29.5.12",
     "eslint": "9.6.0",
     "globals": "15.8.0",
     "husky": "^9.0.11",
+    "jest": "^29.7.0",
     "prettier": "3.3.2"
   }
 }
